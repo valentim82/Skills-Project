@@ -1,0 +1,98 @@
+html,body,h1,h2,h3,h4,p,header,div,section,img,ul,li,a,ol,nav{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(76, 76, 179);
+    width: 15%;
+    height: 1500px;
+    position: absolute;
+    z-index: 9;
+    
+    
+    
+}
+nav ul{
+    padding-top: 40px;
+    padding-left: 40px;
+    
+}
+
+header{
+    background-color: rgb(76, 76, 179);
+    height: 80px;
+    
+}
+
+.left{
+    display: inline-block;
+    float: left;
+    
+    
+}
+.right{
+    display: inline-block;
+    float: right;
+    
+}
+header h1{
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    color: white;
+    margin-top: 25px;
+}
+.main-picture {
+    background-image: url('https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg');
+    background-size: cover; /* adjusts the size of the image to cover the entire div */
+    background-position: center; /* centers the image within the div */
+  
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+
+  }
+.main-picture-text1{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.main-picture-text2{
+    text-align: center;
+    color: white;
+}
+.adventures{
+    margin-left: 60px;
+}
+section h1{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(184, 192, 184);
+    max-width: 850px;
+}
+section div h2{
+    color:green;
+    margin-top: 15px;
+    text-decoration: underline  ;
+}
+.specif{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+section div h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 150;
+}
+.trip{
+    width: 700px;
+}
+section div p{
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
