@@ -1,3 +1,4 @@
+/* remove all margin border and padding from all elements */
 html,body,h1,h2,h3,h4,p,header,div,section,img,ul,li,a,ol,nav{
     padding: 0;
     border: 0;
@@ -9,13 +10,15 @@ main{
     max-width: 1200px;
     margin: 0 auto;
 }
+/* Below 1200px the main content must be 100% across the screen */
 @media (max-width: 1200px) {
     main {
       max-width: 100%;
       padding: 0 10px; /* Add some padding to the left and right of the main content */
     }
 }
-
+/* 
+navigation/manu element */
 nav{
     background-color: rgb(76, 76, 179);
     width: 15%;
@@ -34,12 +37,17 @@ nav ul{
     list-style-type: none;
     
     color: white;
-    font-size: 35px;
     text-decoration: none;
+    font-size: 35px;
+   
     
 }
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
 
-
+/* implement the shadow */
 header{
     background-color: rgb(76, 76, 179);
     height: 80px;
@@ -47,15 +55,23 @@ header{
     
 }
 
+
+/* left and righ image on the header with percentural size */
+
 .left{
     display: inline-block;
     float: left;
+    width: 5%;
+    padding-top: 30;
     
+      
     
 }
 .right{
     display: inline-block;
     float: right;
+    width: 5%;
+   
     
 }
 header h1{
@@ -65,6 +81,8 @@ header h1{
     color: white;
     margin-top: 25px;
 }
+
+/* main picture insert as background */
 .main-picture {
     background-image: url('https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg');
     background-size: cover; /* adjusts the size of the image to cover the entire div */
